@@ -1,0 +1,670 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC415D012D368EAE0055DD9E /* ShrinivasApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC415D002D368EAE0055DD9E /* ShrinivasApp.swift */; };
+		AC415D032D368EAE0055DD9E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC415D022D368EAE0055DD9E /* ContentView.swift */; };
+		AC415D052D368EAF0055DD9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC415D042D368EAF0055DD9E /* Assets.xcassets */; };
+		AC415D092D368EAF0055DD9E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC415D082D368EAF0055DD9E /* Preview Assets.xcassets */; };
+		AC415D132D368EB00055DD9E /* ShrinivasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC415D122D368EB00055DD9E /* ShrinivasTests.swift */; };
+		AC415D1D2D368EB00055DD9E /* ShrinivasUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC415D1C2D368EB00055DD9E /* ShrinivasUITests.swift */; };
+		AC415D1F2D368EB00055DD9E /* ShrinivasUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC415D1E2D368EB00055DD9E /* ShrinivasUITestsLaunchTests.swift */; };
+		AC415D2E2D3690FA0055DD9E /* inputfield.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC415D2D2D3690FA0055DD9E /* inputfield.swift */; };
+		AC415D302D36967D0055DD9E /* passwordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC415D2F2D36967D0055DD9E /* passwordView.swift */; };
+		AC415D322D3698910055DD9E /* signup.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC415D312D3698910055DD9E /* signup.swift */; };
+		AC415D342D369A810055DD9E /* Homepage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC415D332D369A810055DD9E /* Homepage.swift */; };
+		AC415D372D369F8A0055DD9E /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC415D362D369F8A0055DD9E /* HomeView.swift */; };
+		AC415D392D369FC30055DD9E /* chatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC415D382D369FC30055DD9E /* chatView.swift */; };
+		AC415D3B2D369FDC0055DD9E /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC415D3A2D369FDC0055DD9E /* AccountView.swift */; };
+		AC415D3D2D369FEB0055DD9E /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC415D3C2D369FEB0055DD9E /* AddView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC415D0F2D368EB00055DD9E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC415CF52D368EAE0055DD9E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC415CFC2D368EAE0055DD9E;
+			remoteInfo = Shrinivas;
+		};
+		AC415D192D368EB00055DD9E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC415CF52D368EAE0055DD9E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC415CFC2D368EAE0055DD9E;
+			remoteInfo = Shrinivas;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AC415CFD2D368EAE0055DD9E /* Shrinivas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shrinivas.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC415D002D368EAE0055DD9E /* ShrinivasApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShrinivasApp.swift; sourceTree = "<group>"; };
+		AC415D022D368EAE0055DD9E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AC415D042D368EAF0055DD9E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC415D062D368EAF0055DD9E /* Shrinivas.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Shrinivas.entitlements; sourceTree = "<group>"; };
+		AC415D082D368EAF0055DD9E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AC415D0E2D368EB00055DD9E /* ShrinivasTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShrinivasTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC415D122D368EB00055DD9E /* ShrinivasTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShrinivasTests.swift; sourceTree = "<group>"; };
+		AC415D182D368EB00055DD9E /* ShrinivasUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShrinivasUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC415D1C2D368EB00055DD9E /* ShrinivasUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShrinivasUITests.swift; sourceTree = "<group>"; };
+		AC415D1E2D368EB00055DD9E /* ShrinivasUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShrinivasUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AC415D2D2D3690FA0055DD9E /* inputfield.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = inputfield.swift; sourceTree = "<group>"; };
+		AC415D2F2D36967D0055DD9E /* passwordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = passwordView.swift; sourceTree = "<group>"; };
+		AC415D312D3698910055DD9E /* signup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signup.swift; sourceTree = "<group>"; };
+		AC415D332D369A810055DD9E /* Homepage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Homepage.swift; sourceTree = "<group>"; };
+		AC415D362D369F8A0055DD9E /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		AC415D382D369FC30055DD9E /* chatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chatView.swift; sourceTree = "<group>"; };
+		AC415D3A2D369FDC0055DD9E /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
+		AC415D3C2D369FEB0055DD9E /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC415CFA2D368EAE0055DD9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC415D0B2D368EB00055DD9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC415D152D368EB00055DD9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC415CF42D368EAE0055DD9E = {
+			isa = PBXGroup;
+			children = (
+				AC415CFF2D368EAE0055DD9E /* Shrinivas */,
+				AC415D112D368EB00055DD9E /* ShrinivasTests */,
+				AC415D1B2D368EB00055DD9E /* ShrinivasUITests */,
+				AC415CFE2D368EAE0055DD9E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC415CFE2D368EAE0055DD9E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC415CFD2D368EAE0055DD9E /* Shrinivas.app */,
+				AC415D0E2D368EB00055DD9E /* ShrinivasTests.xctest */,
+				AC415D182D368EB00055DD9E /* ShrinivasUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC415CFF2D368EAE0055DD9E /* Shrinivas */ = {
+			isa = PBXGroup;
+			children = (
+				AC415D2C2D3690D60055DD9E /* Components */,
+				AC415D2B2D368ED50055DD9E /* Views */,
+				AC415D002D368EAE0055DD9E /* ShrinivasApp.swift */,
+				AC415D042D368EAF0055DD9E /* Assets.xcassets */,
+				AC415D062D368EAF0055DD9E /* Shrinivas.entitlements */,
+				AC415D072D368EAF0055DD9E /* Preview Content */,
+			);
+			path = Shrinivas;
+			sourceTree = "<group>";
+		};
+		AC415D072D368EAF0055DD9E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AC415D082D368EAF0055DD9E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AC415D112D368EB00055DD9E /* ShrinivasTests */ = {
+			isa = PBXGroup;
+			children = (
+				AC415D122D368EB00055DD9E /* ShrinivasTests.swift */,
+			);
+			path = ShrinivasTests;
+			sourceTree = "<group>";
+		};
+		AC415D1B2D368EB00055DD9E /* ShrinivasUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AC415D1C2D368EB00055DD9E /* ShrinivasUITests.swift */,
+				AC415D1E2D368EB00055DD9E /* ShrinivasUITestsLaunchTests.swift */,
+			);
+			path = ShrinivasUITests;
+			sourceTree = "<group>";
+		};
+		AC415D2B2D368ED50055DD9E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AC415D352D369F6C0055DD9E /* New Group */,
+				AC415D022D368EAE0055DD9E /* ContentView.swift */,
+				AC415D2F2D36967D0055DD9E /* passwordView.swift */,
+				AC415D312D3698910055DD9E /* signup.swift */,
+				AC415D332D369A810055DD9E /* Homepage.swift */,
+				AC415D362D369F8A0055DD9E /* HomeView.swift */,
+				AC415D382D369FC30055DD9E /* chatView.swift */,
+				AC415D3A2D369FDC0055DD9E /* AccountView.swift */,
+				AC415D3C2D369FEB0055DD9E /* AddView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AC415D2C2D3690D60055DD9E /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				AC415D2D2D3690FA0055DD9E /* inputfield.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		AC415D352D369F6C0055DD9E /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC415CFC2D368EAE0055DD9E /* Shrinivas */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC415D222D368EB00055DD9E /* Build configuration list for PBXNativeTarget "Shrinivas" */;
+			buildPhases = (
+				AC415CF92D368EAE0055DD9E /* Sources */,
+				AC415CFA2D368EAE0055DD9E /* Frameworks */,
+				AC415CFB2D368EAE0055DD9E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Shrinivas;
+			productName = Shrinivas;
+			productReference = AC415CFD2D368EAE0055DD9E /* Shrinivas.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AC415D0D2D368EB00055DD9E /* ShrinivasTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC415D252D368EB00055DD9E /* Build configuration list for PBXNativeTarget "ShrinivasTests" */;
+			buildPhases = (
+				AC415D0A2D368EB00055DD9E /* Sources */,
+				AC415D0B2D368EB00055DD9E /* Frameworks */,
+				AC415D0C2D368EB00055DD9E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC415D102D368EB00055DD9E /* PBXTargetDependency */,
+			);
+			name = ShrinivasTests;
+			productName = ShrinivasTests;
+			productReference = AC415D0E2D368EB00055DD9E /* ShrinivasTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AC415D172D368EB00055DD9E /* ShrinivasUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC415D282D368EB00055DD9E /* Build configuration list for PBXNativeTarget "ShrinivasUITests" */;
+			buildPhases = (
+				AC415D142D368EB00055DD9E /* Sources */,
+				AC415D152D368EB00055DD9E /* Frameworks */,
+				AC415D162D368EB00055DD9E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC415D1A2D368EB00055DD9E /* PBXTargetDependency */,
+			);
+			name = ShrinivasUITests;
+			productName = ShrinivasUITests;
+			productReference = AC415D182D368EB00055DD9E /* ShrinivasUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC415CF52D368EAE0055DD9E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					AC415CFC2D368EAE0055DD9E = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					AC415D0D2D368EB00055DD9E = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = AC415CFC2D368EAE0055DD9E;
+					};
+					AC415D172D368EB00055DD9E = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = AC415CFC2D368EAE0055DD9E;
+					};
+				};
+			};
+			buildConfigurationList = AC415CF82D368EAE0055DD9E /* Build configuration list for PBXProject "Shrinivas" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC415CF42D368EAE0055DD9E;
+			productRefGroup = AC415CFE2D368EAE0055DD9E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC415CFC2D368EAE0055DD9E /* Shrinivas */,
+				AC415D0D2D368EB00055DD9E /* ShrinivasTests */,
+				AC415D172D368EB00055DD9E /* ShrinivasUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC415CFB2D368EAE0055DD9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC415D092D368EAF0055DD9E /* Preview Assets.xcassets in Resources */,
+				AC415D052D368EAF0055DD9E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC415D0C2D368EB00055DD9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC415D162D368EB00055DD9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC415CF92D368EAE0055DD9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC415D302D36967D0055DD9E /* passwordView.swift in Sources */,
+				AC415D372D369F8A0055DD9E /* HomeView.swift in Sources */,
+				AC415D2E2D3690FA0055DD9E /* inputfield.swift in Sources */,
+				AC415D322D3698910055DD9E /* signup.swift in Sources */,
+				AC415D392D369FC30055DD9E /* chatView.swift in Sources */,
+				AC415D342D369A810055DD9E /* Homepage.swift in Sources */,
+				AC415D3B2D369FDC0055DD9E /* AccountView.swift in Sources */,
+				AC415D032D368EAE0055DD9E /* ContentView.swift in Sources */,
+				AC415D3D2D369FEB0055DD9E /* AddView.swift in Sources */,
+				AC415D012D368EAE0055DD9E /* ShrinivasApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC415D0A2D368EB00055DD9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC415D132D368EB00055DD9E /* ShrinivasTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC415D142D368EB00055DD9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC415D1F2D368EB00055DD9E /* ShrinivasUITestsLaunchTests.swift in Sources */,
+				AC415D1D2D368EB00055DD9E /* ShrinivasUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AC415D102D368EB00055DD9E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC415CFC2D368EAE0055DD9E /* Shrinivas */;
+			targetProxy = AC415D0F2D368EB00055DD9E /* PBXContainerItemProxy */;
+		};
+		AC415D1A2D368EB00055DD9E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC415CFC2D368EAE0055DD9E /* Shrinivas */;
+			targetProxy = AC415D192D368EB00055DD9E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AC415D202D368EB00055DD9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AC415D212D368EB00055DD9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		AC415D232D368EB00055DD9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Shrinivas/Shrinivas.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Shrinivas/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dheeru.Shrinivas;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AC415D242D368EB00055DD9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Shrinivas/Shrinivas.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Shrinivas/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dheeru.Shrinivas;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AC415D262D368EB00055DD9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dheeru.ShrinivasTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Shrinivas.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Shrinivas";
+			};
+			name = Debug;
+		};
+		AC415D272D368EB00055DD9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dheeru.ShrinivasTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Shrinivas.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Shrinivas";
+			};
+			name = Release;
+		};
+		AC415D292D368EB00055DD9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dheeru.ShrinivasUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Shrinivas;
+			};
+			name = Debug;
+		};
+		AC415D2A2D368EB00055DD9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dheeru.ShrinivasUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Shrinivas;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC415CF82D368EAE0055DD9E /* Build configuration list for PBXProject "Shrinivas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC415D202D368EB00055DD9E /* Debug */,
+				AC415D212D368EB00055DD9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC415D222D368EB00055DD9E /* Build configuration list for PBXNativeTarget "Shrinivas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC415D232D368EB00055DD9E /* Debug */,
+				AC415D242D368EB00055DD9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC415D252D368EB00055DD9E /* Build configuration list for PBXNativeTarget "ShrinivasTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC415D262D368EB00055DD9E /* Debug */,
+				AC415D272D368EB00055DD9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC415D282D368EB00055DD9E /* Build configuration list for PBXNativeTarget "ShrinivasUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC415D292D368EB00055DD9E /* Debug */,
+				AC415D2A2D368EB00055DD9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC415CF52D368EAE0055DD9E /* Project object */;
+}
